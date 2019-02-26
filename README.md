@@ -29,12 +29,12 @@ binary size, amount of the cpu usage and memory usage for the same job. This is 
 - RAM is the memory usage after some amount of time, memory usage is computed using VmRSS value
 - User and Sys are time consumed to do 32 fetching iterations (not an infinite loop) on user space and kernel space
 
-| Language | LoC | Binary Size | RAM (5s) | RAM (6h) | User CPU | Sys CPU  |
-|----------|-----|-------------|----------|----------|----------|----------|
-| Python   | 16  | /           | 30 MB    | /        | 0.344s   | 0.037s   |
-| Rust     | 39  | 3.4M        | 8.41 MB  | /        | 0.241s   | 0.032s   |
-| Go       | 54  | 5.1M        | 8.95 MB  | /        | 0.090s   | 0.030s   |
-| C        | 102 | 83K         | 5.28 MB  | /        | 0.133s   | 0.039s   |
+| Language | LoC     | Binary Size | RAM (5s)     | RAM (6h) | User CPU     | Sys CPU  |
+|----------|---------|-------------|--------------|----------|--------------|----------|
+| Python   | *16*    | /           | 30 MB        | /        | 0.344s       | 0.037s   |
+| Rust     | **39**  | 3.4M        | 8.41 MB      | /        | 0.241s       | 0.032s   |
+| Go       | 54      | 5.1M        | 8.95 MB      | /        | **0.090s**   | 0.030s   |
+| C        | 102     | **83K**     | **5.28 MB**  | /        | 0.133s       | 0.039s   |
 
 - Rust: 1.32.0
 - Go: 1.11.5 linux/amd64
