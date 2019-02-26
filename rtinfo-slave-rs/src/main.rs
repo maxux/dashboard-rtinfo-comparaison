@@ -52,5 +52,6 @@ fn main() {
         // waiting next fetch
         thread::sleep(onesec);
     }
+
 }
 
